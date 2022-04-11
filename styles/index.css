@@ -1,0 +1,47 @@
+*{
+    user-select: none;
+}
+
+@font-face{
+    font-family: vhs;
+    src: url("../fonts/VCR_OSD_MONO_1.001.ttf")
+}
+
+body{
+    background-color: black;
+}
+
+div{
+    font-family: vhs, Consolas, monospace;
+    color: #ddd;
+}
+
+#main{
+    padding-left: 35px;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+#top{
+    display: inline-block;
+    float: right;
+}
+
+#middle{
+    padding-top: 90px;
+    font-size: 20px;
+}
+
+#bottom{
+    padding-top: 90px;
+}
+
+#bottom2{
+    display: inline-block;
+    float: right;
+}
+
+#top,#bottom,#bottom2{
+    font-size: 13px;
+}
+
